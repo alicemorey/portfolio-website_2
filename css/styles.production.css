@@ -15,13 +15,13 @@ header {
 }
 
 main {
-  padding: 5px 5px;
-  margin: 100px;
+  padding: 5px;
+  margin: 200px;
   width: 50%;
   height: 70%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  text-align: right;
+  text-align: center;
 }
 
 body {
@@ -38,7 +38,7 @@ h1 {
   font-size: 50px;
   font-weight: bold;
   font-variant: small-caps;
-  text-align: left;
+  text-align: center;
   padding: 10px;
   margin: 10px;
   border: undefined;
@@ -126,12 +126,6 @@ table {
   display: inline-block;
 }
 
-#float-text {
-  display: block;
-  text-align: left;
-  font-size: 17px;
-}
-
 #artwork {
   width: 100px;
   height: 150px;
@@ -178,7 +172,7 @@ input {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
@@ -264,14 +258,9 @@ button {
   grid-row: auto/auto;
 }
 
-h1 {
-  font-size: 22px;
-}
-
 footer {
   padding: 5%;
-  margin: 5px;
-  width: 400px;
+  margin: 200px;
   display: inline;
   text-align: center;
 }
