@@ -54,6 +54,12 @@ h2 {
 }
 
 #writingtext {
+  width: 1000px;
+  height: 250px;
+  display: inline-block;
+}
+
+#work {
   width: 900px;
   height: 200px;
   display: inline-block;
