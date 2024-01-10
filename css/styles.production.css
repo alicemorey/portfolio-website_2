@@ -48,9 +48,15 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 27px;
-  font-weight: bold;
+  font-weight: bod;
   font-variant: small-caps;
   text-align: center;
+}
+
+#writingtext {
+  width: 900px;
+  height: 200px;
+  display: inline-block;
 }
 
 #menuitem {
