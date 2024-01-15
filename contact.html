@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>alice morey</title>
-        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon copy.ico" >
+        <link rel="icon" type="image/png" href="./img/favicon copy.ico">
         <link rel="stylesheet" type="text/css" href="css/styles.production.css">
         <style>
             body {
@@ -13,17 +13,16 @@
         </style>
     </head>
 
-    <body>
         <header>
             <img src="./img/logo.png" width="180" height="180" alt="logo">
-            <div id=menuitem>
+            <div id="menuitem">
                 <a href="index.html">home</a>
                 <a href="about.html">about</a>
                 <a href="work.html">work</a>
                 <a href="contact.html">contact</a>
             </div>
         </header>
-
+    <body>
     <main>
     <p>
         alice morey<br>
@@ -42,32 +41,28 @@
         <form action="subscribe" method="post" id="contact-form">
             <label class="standard-label" for="text">Name:</label>
             <br>
-            <input type="text" id="text"required>
+            <input type="text" id="text" required> 
             <br>
             <label class="standard-label" id="contact-email">E-mail:</label>
             <br>
-            <input type="text"  id="contact-email" required>
+            <input type="text" name="contact-email" required>
             <br>
             <label class="standard-label" id="contact-message">Message:</label>
-            <textarea type="text" id="contact-message" length=250 required></textarea>
+            <textarea name="contact-message" maxlength= "250" required></textarea>
             <br>
-            <input class=button type="submit" value="send message">
+            <input class="button" type="submit" value="send message">
         </form>
     </main>
 </body>
-
-<footer class="page-footer">
-
+<footer>
     <p>find me on
     </p>
-    <div class="page-footer">
-        <a target="_blank" href=https://github.com><img src="./img/github.png" width="16" height="16" alt="github" /></a>
-        <a target= "_blank" href=https://twitter.com><img src="./img/twitter.png" width="16" height="16" alt="Twitter"/><a>
-        <a target= "_blank" href="https://www.linkedin.com/"><img src="./img/linkedin.png" width="16" height="16" alt="LinkedIn">     
-    </div>
+    <div class="social-media">
+        <a target="_blank" href="https://github.com"><img src="./img/github.png" class="github" alt="github"></a>
+        <a target= "_blank" href="https://twitter.com"><img src="./img/twitter.png" class="twitter" alt="Twitter"></a>
+        <a target= "_blank" href="https://www.linkedin.com/"><img src="./img/linkedin.png" class="linkedin" alt="LinkedIn"></a>
+        </div>
 </footer>
 
     <script src="js/tota11y.min.js"></script>     
 </html>
-
-    </body>

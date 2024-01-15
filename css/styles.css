@@ -139,7 +139,7 @@ img {
   display: inline-block;
 }
 
-#artwork {
+.artwork {
   width: 100px;
   height: 150px;
   border: var(--border-properties);
@@ -279,4 +279,19 @@ footer {
 #contact-form {
   display: inline-block;
   text-align: left;
+}
+
+img.github {
+  width: 16px;
+  height: 16px;
+}
+
+img.twitter {
+  width: 16px;
+  height: 16px;
+}
+
+img.linkedin {
+  width: 16px;
+  height: 16px;
 }

@@ -138,7 +138,7 @@ table {
   display: inline-block;
 }
 
-#artwork {
+.artwork {
   width: 100px;
   height: 150px;
   border: undefined;
@@ -196,9 +196,7 @@ div.grid__item {
   height: 350px;
   border-radius: 20%;
   -webkit-transition-property: background-color, -webkit-transform;
-  transition-property: background-color, -webkit-transform;
   -o-transition-property: background-color, transform;
-  transition-property: background-color, transform;
   transition-property: background-color, transform, -webkit-transform;
   -webkit-transition-duration: 0.5s, 0.5s;
   -o-transition-duration: 0.5s, 0.5s;
@@ -300,4 +298,19 @@ footer {
 .standard-label {
   display: block;
   text-align: left;
+}
+
+img.github {
+  width: 16px;
+  height: 16px;
+}
+
+img.twitter {
+  width: 16px;
+  height: 16px;
+}
+
+img.linkedin {
+  width: 16px;
+  height: 16px;
 }
